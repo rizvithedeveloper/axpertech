@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/axpertech/static/css/main.5a7015bf.chunk.css",
+    "main.js": "/axpertech/static/js/main.22913eb2.chunk.js",
+    "main.js.map": "/axpertech/static/js/main.22913eb2.chunk.js.map",
+    "runtime-main.js": "/axpertech/static/js/runtime-main.10dabf3f.js",
+    "runtime-main.js.map": "/axpertech/static/js/runtime-main.10dabf3f.js.map",
+    "static/js/2.d25d15a1.chunk.js": "/axpertech/static/js/2.d25d15a1.chunk.js",
+    "static/js/2.d25d15a1.chunk.js.map": "/axpertech/static/js/2.d25d15a1.chunk.js.map",
+    "index.html": "/axpertech/index.html",
+    "static/css/main.5a7015bf.chunk.css.map": "/axpertech/static/css/main.5a7015bf.chunk.css.map",
+    "static/js/2.d25d15a1.chunk.js.LICENSE.txt": "/axpertech/static/js/2.d25d15a1.chunk.js.LICENSE.txt",
+    "static/media/logo.5aaf46c2.svg": "/axpertech/static/media/logo.5aaf46c2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10dabf3f.js",
+    "static/js/2.d25d15a1.chunk.js",
+    "static/css/main.5a7015bf.chunk.css",
+    "static/js/main.22913eb2.chunk.js"
+  ]
+}
