@@ -1,0 +1,31 @@
+.post-author {
+  margin-top: 100px;
+
+  .user-image {
+    img {
+      width: 100%;
+      border-radius: 100%;
+    }
+  }
+  .user-name {
+    margin-top: 0;
+  }
+  .user-description {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .user-social-links {
+    display: flex;
+
+    li {
+      width: fit-content;
+      padding: 0 8px;
+
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+}

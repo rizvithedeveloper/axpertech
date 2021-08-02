@@ -1,0 +1,56 @@
+.contact-container {
+  padding: 50px 0px;
+
+  p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  ul {
+    margin-top: 30px;
+
+    li {
+      padding-left: 0;
+
+      b {
+        margin-right: 12px;
+      }
+      a {
+        color: #000;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 14px;
+        margin: 0;
+      }
+    }
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+
+    .MuiTextField-root {
+      margin-bottom: 20px;
+    }
+    input[name="message"] {
+      height: 100px;
+    }
+
+    input,
+    label {
+      font-family: "Montserrat", sans-serif !important;
+    }
+
+    button {
+      background: #212631 !important;
+      color: #fff;
+      display: flex;
+      margin-left: 0;
+      width: fit-content;
+      min-width: 150px !important;
+      border-radius: 2px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.horizontal-posts-list {
+  padding: 40px 0px;
+  .heading {
+    margin-bottom: 40px;
+
+    h2 {
+      margin: 0;
+    }
+  }
+
+  .load-more-button {
+    background: #212631 !important;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    min-width: 150px !important;
+    border-radius: 2px;
+  }
+}

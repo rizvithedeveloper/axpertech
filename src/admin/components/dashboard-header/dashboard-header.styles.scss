@@ -1,0 +1,41 @@
+#simple-menu {
+  .MuiMenu-paper {
+    top: 64px !important;
+    left: auto !important;
+    right: 30px !important;
+    width: 250px;
+  }
+
+  .head {
+    padding: 5px 15px;
+    text-align: center;
+  }
+  hr {
+    margin-bottom: 20px;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    svg {
+      margin-right: 15px;
+      color: rgba(0, 0, 0, 0.54);
+    }
+    span {
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+  .logout-btn {
+    padding: 20px;
+
+    button {
+      width: 100%;
+      text-transform: capitalize;
+      border-radius: 100px;
+    }
+  }
+}

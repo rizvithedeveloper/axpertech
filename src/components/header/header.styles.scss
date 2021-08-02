@@ -1,0 +1,53 @@
+.header {
+  -webkit-box-shadow: 0 -1px 0 0 #eceef2 inset;
+  box-shadow: 0 -1px 0 0 #eceef2 inset;
+
+  .brand {
+    width: 220px;
+  }
+  .MuiContainer-root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Navigation Bar */
+  .navigation-bar {
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+
+      li {
+        a {
+          display: flex;
+          text-decoration: none;
+          color: #212631;
+          font-weight: 500;
+          padding: 25px;
+          -webkit-box-shadow: -1px 0 0 0 #eceef2 inset;
+          box-shadow: -1px 0 0 0 #eceef2 inset;
+        }
+        &:first-child {
+          a {
+            border-left: 1px solid #eceef2;
+          }
+        }
+      }
+    }
+  }
+
+  /* Header Icons */
+  .header-features {
+    display: flex;
+
+    button {
+      margin-right: 15px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

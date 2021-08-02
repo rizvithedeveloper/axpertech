@@ -1,0 +1,43 @@
+.comments {
+  margin-top: 40px;
+
+  h2 {
+    margin-bottom: 50px;
+  }
+  .user-image {
+    text-align: right;
+    img {
+      width: 70px;
+      height: 70px;
+      border-radius: 300px;
+    }
+  }
+  .user-name {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .comment-date {
+    color: #a7b3c6;
+    font-size: 13px;
+    margin-top: 10px;
+    display: flex;
+  }
+  .user-comment {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 30px;
+  }
+  .MuiGrid-container {
+    padding-top: 40px;
+    padding-bottom: 15px;
+  }
+
+  hr {
+    width: 90%;
+    margin-left: auto;
+
+    &:last-child {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.sidebar-post {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+
+  .post-image {
+    width: 30%;
+    padding-right: 15px;
+
+    img {
+      width: 100%;
+      min-height: 85px;
+      object-fit: cover;
+      object-position: center;
+      transition: 0.4s all;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .post-title {
+    width: 70%;
+    color: #212631;
+    font-weight: 600;
+    line-height: 21px;
+    font-size: 15px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

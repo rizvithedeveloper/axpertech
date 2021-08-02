@@ -1,0 +1,19 @@
+.posts-with-sidebar {
+  .big {
+    margin-bottom: 50px;
+
+    .content-overlay-post {
+      height: 400px;
+    }
+  }
+
+  .small {
+    .standard-post {
+      margin-bottom: 0;
+    }
+  }
+
+  .sidebar-heading {
+    margin-bottom: 40px;
+  }
+}

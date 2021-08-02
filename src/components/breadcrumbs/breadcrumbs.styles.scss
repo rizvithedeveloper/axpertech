@@ -1,0 +1,26 @@
+.breadcrumbs {
+  padding: 60px 0px;
+  background-color: #fbfbfd;
+  border-bottom: 2px solid #f4f4f9;
+
+  .MuiTypography-body1 {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #a7b3c6;
+  }
+  li {
+    a {
+      color: #a7b3c6;
+      font-weight: 600;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  h2 {
+    text-transform: capitalize;
+  }
+}

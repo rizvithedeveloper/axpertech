@@ -1,0 +1,12 @@
+.recent-posts {
+  h2 {
+    margin: 40px 0px;
+    font-size: 26px;
+    color: #212631;
+    font-weight: 600;
+  }
+  .post-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

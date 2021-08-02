@@ -1,0 +1,21 @@
+.featured-posts {
+  margin: 20px 0px;
+  padding: 50px 0px;
+  padding-bottom: 40px;
+  background-color: #fbfbfd;
+  border-bottom: 1px solid #eceef2;
+  border-top: 1px solid #eceef2;
+
+  .heading {
+    text-align: center;
+    margin-bottom: 40px;
+
+    h2 {
+      margin: 0;
+    }
+  }
+
+  .standard-post {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,54 @@
+.footer {
+  padding: 50px 0px;
+  border-top: 1px solid #f4f4f9;
+  margin-top: 50px;
+  color: #a7b3c6;
+
+  .brand-logo {
+    width: 220px;
+    margin-bottom: 20px;
+  }
+
+  .about-us {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 50px;
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+  .footer-heading {
+    color: #212631;
+  }
+  .footer-links {
+    a {
+      font-weight: 500;
+      color: #a7b3c6;
+      text-transform: capitalize;
+      transition: 0.3s all;
+
+      &:hover {
+        color: #212631;
+      }
+    }
+  }
+  .newsletter-form {
+    input {
+      font-weight: 500;
+      font-family: "Montserrat";
+    }
+    label {
+      font-weight: 500;
+      font-family: "Montserrat";
+    }
+
+    .MuiFormLabel-root.Mui-focused {
+      color: #212631;
+    }
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+}
