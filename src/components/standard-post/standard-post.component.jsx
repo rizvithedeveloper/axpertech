@@ -18,7 +18,7 @@ function StandardPost(props) {
 
   return (
     <div className="standard-post">
-      <Link to={`/blog/${title.replaceAll(" ", "-").replace(":", "")}`}>
+      <Link to={postPath(id, title, publishedDate)}>
         <div
           className="post-image"
           style={{ backgroundImage: `url(${featuredImage})` }}
